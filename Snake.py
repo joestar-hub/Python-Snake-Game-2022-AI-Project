@@ -9,6 +9,7 @@ pygame.init()
 font = pygame.font.SysFont('calibri', 20)
 
 class Direction(Enum):
+    #The Snake Direction
     RIGHT = 1
     LEFT = 2
     UP = 3
@@ -16,6 +17,7 @@ class Direction(Enum):
     
 Point = namedtuple('Point', 'x, y')
 
+#COLOR CODE IN RGB
 WHITE = (255, 255, 255)
 RED = (248,143,147)
 GREEN = (186,217,181)
